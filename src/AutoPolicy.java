@@ -11,4 +11,34 @@ public class AutoPolicy {
 		this.state = state;
 	}
 
+	// sets the accountNumber
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+
+	// returns the accountNumber
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+
+	// sets the makeAndModel
+	public void setMakeAndModel(String makeAndModel) {
+		this.makeAndModel = makeAndModel;
+	}
+
+	// returns the makeAndModel
+	public String getMakeAndModel() {
+		return makeAndModel;
+	}
+
+	// sets state
+	public void setState(String state) {
+		this.state = state;
+	}
+
+	// returns state
+	public String getState() {
+		return state;
+	}
+
 }
