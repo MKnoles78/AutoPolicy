@@ -14,7 +14,7 @@ public class AutoPolicyTest {
 	// method that display whether an AutoPolicy
 	// is in a state with no-fault auto insurance
 	public static void policyInNoFaultState(AutoPolicy policy) {
-		System.out.println("The auot policy:");
+		System.out.println("The auto policy:");
 		System.out.printf("Account #: %d; Car: %s;%nState %s %s no-fault state%n%n", policy.getAccountNumber(),
 				policy.getMakeAndModel(), policy.getState(), (policy.isNoFaultState() ? "is" : "is not"));
 	}
