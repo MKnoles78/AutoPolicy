@@ -51,6 +51,7 @@ public class AutoPolicy {
 		case "NY":
 		case "PA":
 			noFaultState = true;
+			break;
 		default:
 			noFaultState = false;
 			break;
