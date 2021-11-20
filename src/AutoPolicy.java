@@ -41,4 +41,20 @@ public class AutoPolicy {
 		return state;
 	}
 
-}
+	// predicate method returns whether the state has no-fault insurance
+	public boolean isNoFaultState() {
+		boolean noFaultState;
+		// determine whether state has no-fault auto insurance
+		switch (getState()) { // get AutoPolicy object's state abbreviation
+		case "MA":
+		case "NJ":
+		case "NY":
+		case "PA":
+			noFaultState = true;
+		default:
+			noFaultState = false;
+			break;
+		}
+		return noFaultState;
+	}
+} // ends class
